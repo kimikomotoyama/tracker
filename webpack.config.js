@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'development',
-  entry: './src/components/app.jsx',
+  entry: './src/app.jsx',
   output: {
     path: path.resolve(__dirname, './'),
     filename: 'app.min.js'
