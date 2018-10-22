@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { observer } from 'mobx-react'
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import '../styles/style.scss'
+import Home from '../pages/home';
 
 @observer
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div className="wrapper">
-          <div>This is the beginning of this app!</div>
+        <Route exact path='/' component={Home} />
         </div>
       </BrowserRouter>
     )
