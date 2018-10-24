@@ -5,6 +5,7 @@ import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import FormControl from '@material-ui/core/FormControl';
+import { IconButton } from '@material-ui/core';
 
 @observer
 class FormView extends React.Component {
@@ -23,7 +24,6 @@ class FormView extends React.Component {
             id="adornment-title"
             value={stores.bookStore.tempBook.title}
             onChange={this.handleChange('title')}
-            startAdornment={<InputAdornment position="start"></InputAdornment>}
           />
         </FormControl>
         <FormControl fullWidth className={classNames("margin", "textField")}>
@@ -32,7 +32,6 @@ class FormView extends React.Component {
             id="adornment-author"
             value={stores.bookStore.tempBook.author}
             onChange={this.handleChange('author')}
-            startAdornment={<InputAdornment position="start"></InputAdornment>}
           />
         </FormControl>
       </div>
