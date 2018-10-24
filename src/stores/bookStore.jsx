@@ -5,7 +5,6 @@ export default class BookStore {
   @observable tempBook = {
     title: '',
     author: '',
-    yearPublished: '',
     favorite: false
   }
 
@@ -27,5 +26,6 @@ export default class BookStore {
       yearPublished: '',
       favorite: false
     }
+    console.log(this.books);
   }
 }

@@ -42,3 +42,22 @@ span {
   right: auto;
   bottom: auto;
 }
+
+//form.jsx
+.form-root {
+  display: 'flex';
+  flex-wrap: 'wrap';
+  opacity: 1.0;
+  
+  // .margin {
+  //   margin: theme.spacing.unit;
+  // }
+  
+  // .withoutLabel {
+  //   margin-top: theme.spacing.unit * 3;
+  // }
+  
+  .textField {
+    flex-basis: 500;
+  }
+}

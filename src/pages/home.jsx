@@ -36,7 +36,7 @@ class Home extends React.Component {
     },
   
     addBook: () => {
-      bookStore.addBook();
+      stores.bookStore.addBook();
       stores.modalStore.changeModalOpenState(false);
     },
   
