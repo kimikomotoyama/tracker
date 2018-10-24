@@ -20,31 +20,32 @@ span {
 }
 
 //card.jsx
-.card {
+.card-container {
   max-width: 600;
+  
+  .bullet {
+    display: inline-block;
+    margin: 0 2px;
+    transform: scale(0.8);
+  }
+  
+  .title {
+    font-size: 14;
+  }
+  
+  .pos {
+    margin-bottom: 12;
+  }
+  
+  .center {
+    right: auto;
+    bottom: auto;
+  }
 }
 
-.bullet {
-  display: inline-block;
-  margin: 0 2px;
-  transform: scale(0.8);
-}
-
-.title {
-  font-size: 14;
-}
-
-.pos {
-  margin-bottom: 12;
-}
-
-.center {
-  right: auto;
-  bottom: auto;
-}
 
 //form.jsx
-.form-root {
+.form-container {
   display: 'flex';
   flex-wrap: 'wrap';
   opacity: 1.0;

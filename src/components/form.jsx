@@ -16,7 +16,7 @@ class FormView extends React.Component {
   render() {
     const { stores } = this.props;
     return (
-      <div className="form-root">
+      <div className="form-container">
         <FormControl fullWidth className={classNames("margin", "textField")}>
           <InputLabel htmlFor="adornment-title">Title</InputLabel>
           <Input

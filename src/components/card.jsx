@@ -17,7 +17,7 @@ class SimpleCard extends React.Component {
     const { home } = this.props;
     const { stores } = this.props;
     return (
-      <Card className="card" style={{display: stores.modalStore.modalIsOpen ? 'block' : 'none' }}>
+      <Card className="card-container" style={{display: stores.modalStore.modalIsOpen ? 'block' : 'none' }}>
         <Button onClick={home.closeModal}>x</Button>
         <CardContent>
           <div>
