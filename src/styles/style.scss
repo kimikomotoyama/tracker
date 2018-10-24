@@ -1,18 +1,44 @@
+//app.jsx
 body {
-    margin: 0;
-    line-height: 1;
-  }
-  span {
-    display: inline-block;
-    width: 3em;
-    font-size: 30px;
-    text-align: center;
-  }
+  margin: 0;
+  line-height: 1;
+}
+
+span {
+  display: inline-block;
+  width: 3em;
+  font-size: 30px;
+  text-align: center;
+}
   
-  button {
-    margin: 1em;
-    padding: .5em 1em;
-    border: 0;
-    font-size: 20px;
-    background-color: #fafafa;
-  }
+.button {
+  margin: 1em;
+  padding: .5em 1em;
+  border: 0;
+  font-size: 20px;
+  background-color: #fafafa;
+}
+
+//card.jsx
+.card {
+  max-width: 600;
+}
+
+.bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+
+.title {
+  font-size: 14;
+}
+
+.pos {
+  margin-bottom: 12;
+}
+
+.center {
+  right: auto;
+  bottom: auto;
+}
